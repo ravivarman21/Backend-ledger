@@ -3,7 +3,6 @@ const ledgerModel = require("../models/ledger.model")
 const emailService = require("../services/email.service");
 const accountModel = require("../models/account.models");
 const transactionModel = require("../models/transaction.model");
-const { status } = require("init");
 
 /**
  * - Create a new transaction
